@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.contenitore{
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.contenitore .card{
+  display: inline-block;
+  width: 31%;
+  background-color: rgb(240, 240, 240);
+  margin: 1%;
+  position: relative;
+
+}
+.contenitore .card > img{
+  width: 100%;
+}
+
+.top-right{
+  background-color: red;
+  height: 35px;
+  width: 55px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 4%;
+}
+.top-right p{
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a .cuore img{
+  position: relative;
+  width: 20px;
+  margin-left: 49%;
+  display: none;
+}
+
+a:hover .cuore img{
+  position: relative;
+  width: 20px;
+  margin-left: 49%;
+  display: block;
+}
