@@ -12,12 +12,13 @@
   margin-top: 3%;
 }
 
-.contenitore .card{
+.contenitore .link{
   display: inline-block;
   width: 31%;
   background-color: rgb(240, 240, 240);
   margin: 1%;
   position: relative;
+  height: 450px;
 
 }
 .contenitore .card > img{
@@ -33,22 +34,23 @@
   right: 0;
   top: 4%;
 }
+
+.color{
+background-color: rgb(110, 227, 39);
+}
+
 .top-right p{
   position: relative;
   text-align: center;
   margin-top: 10px;
 }
 
-a .cuore img{
-  position: relative;
+.link .cuore img{
   width: 20px;
   margin-left: 49%;
   display: none;
 }
 
-a:hover .cuore img{
-  position: relative;
-  width: 20px;
-  margin-left: 49%;
+.link:hover .cuore img{
   display: block;
 }
