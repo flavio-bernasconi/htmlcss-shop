@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
 *{
   font-family: 'Roboto', sans-serif;
 }
@@ -18,7 +17,6 @@
   background-color: rgb(240, 240, 240);
   margin: 1%;
   position: relative;
-  height: 450px;
 }
 .contenitore .card > img{
   width: 100%;
@@ -42,6 +40,11 @@ background-color: rgb(110, 227, 39);
   position: relative;
   text-align: center;
   margin-top: 10px;
+}
+
+.link .cuore{
+  display: block;
+  height: 30px
 }
 
 .link .cuore img{
